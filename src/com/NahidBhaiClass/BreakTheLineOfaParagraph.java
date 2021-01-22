@@ -10,6 +10,9 @@ public class BreakTheLineOfaParagraph {
 		
 		String myParagraph = "asdsa das dasd sa dsad asddsad. asd asdsadsa asdas dasd sad sad sad sad sad and";
 		int columnLength = 5;
+		
+		
+		System.out.println(myParagraph.length());
 	}
 
 }
