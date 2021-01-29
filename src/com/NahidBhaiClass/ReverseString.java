@@ -23,12 +23,12 @@ public class ReverseString {
 		
 		// 2. Reverse a String without using existing java library?
 		
-		//char[] actualWord=input.toCharArray();  @ We can reverse the string using char[] too.
+		char[] actualWord=input.toCharArray();  //@ We can reverse the string using char[] too.
 		
 		for (int i= len-1;i>=0;i--) {
 			
-			reverseWord= reverseWord + input.charAt(i);
-		//  reverseWord= reverseWord + actualWord[i];
+			//reverseWord= reverseWord + input.charAt(i);
+		 reverseWord= reverseWord + actualWord[i];
 		}
 		
 		System.out.println("Reverse a String without using existing java library:" + reverseWord);
